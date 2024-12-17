@@ -3,8 +3,6 @@
 
 using Flashcards.Bina28.Models;
 using Microsoft.Data.SqlClient;
-using System.Configuration;
-
 
 namespace Flashcards.Bina28.DBmanager;
 

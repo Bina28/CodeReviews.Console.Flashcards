@@ -1,13 +1,17 @@
-﻿# Flashcards.Bina28
+﻿# Flashcards Project
 
-This project is designed to manage flashcards, card stacks, and study-related sessions. It is built using C# and .NET, with SQL Server as the database. The database will be automatically filled with sample data upon initialization of the application.
+This project is designed to manage flashcards, card stacks, and study-related sessions.
+It is built using C# and .NET, with SQL Server as the database. 
+The database will be automatically filled with sample data upon initialization of the application.
 
 ## Features
 
 - **Manage Flashcards**:  
   Users can choose a stack and perform the following actions:
-  - View a specified number of flashcards. If the stack contains fewer flashcards than requested, a message will display.
-  - Display all flashcards in a stack, with an appropriate message if no flashcards exist.
+  - View a specified number of flashcards. 
+  If the stack contains fewer flashcards than requested, a message will display.
+  - Display all flashcards in a stack, with an appropriate message 
+	if no flashcards exist.
   - Create, edit, and delete flashcards.
 
 - **Manage Card Stacks**:  
@@ -25,7 +29,8 @@ This project is designed to manage flashcards, card stacks, and study-related se
   - After completing the session, the total score is displayed.
 
 - **View Study Sessions**:  
-  Users can view data about all completed study sessions. However, the data cannot be edited.
+  Users can view data about all completed study sessions. 
+  However, the data cannot be edited.
 
 > **Note**: To see updates in tables, the application needs to be restarted.
 
@@ -38,18 +43,22 @@ This project is designed to manage flashcards, card stacks, and study-related se
 ## Getting Started
 
 1. **Clone the repository**:
+
    ```bash
+
    git clone <repository-url>
+
 Open the project in your IDE.
 
 Configure the database connection:
 
-Edit the database settings in DBmanager/DBconfig.cs to match your SQL Server setup (e.g., username, password, database name).
+Edit the database settings in DBmanager/DBconfig.cs to match your SQL Server setup 
+(e.g., username, password, database name).
 Set up the database:
 
-Run the provided SQL scripts to create the necessary tables and populate them with initial data.
+Run the provided SQL scripts to create the necessary tables 
+and populate them with initial data.
 Build and run the project:
-
 Use your IDE to build and execute the application.
 Project Structure
 Controllers: Contains logic for managing flashcards, stacks, and study sessions.
